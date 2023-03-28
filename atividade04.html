@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 04: Criando formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+
+        fieldset {
+            background-color: rgb(211, 203, 203);
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form>
+            <label for="form">Cadastro</label>
+            <fieldset>
+                <p><label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite um email" required autocomplete="off">
+                </p>
+                <p><label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite uma senha">
+                </p>
+                <p><label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite primeiro nome">
+                </p>
+                <p><label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite último nome">
+                </p>
+                <fieldset><label for="sexo">Sexo:</label><br>
+                    <input type="radio" name="sex" value="male">
+                    <label for="sex">Masculino</label>
+                    <input type="radio" name="sex" value="female">
+                    <label for="sex">Feminino</label>
+                </fieldset>
+                <p><label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00"></p>
+                <p><label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(00) 0000 - 0000"</p>
+                <p><label for="cep">Cep:</label>
+                    <input type="text" name="zipcode" name="cep" id="cep" placeholder="00.000-000"></p>
+                <p><label for="endereco">Endereço:</label>
+                    <input type="text" name="address" name="endereço" id="endereco" placeholder="Rua,Av. ..."></p>
+                <p><label for="complemento">Complemento:</label>
+                    <input type="text" name="complement" name="complemento" id="complemento" placeholder="Apto, Autos ..."></p>
+                <p><label for="bairro">Bairro:</label>
+                    <input type="text" name="district" name="bairro" id="bairro"></p>
+                <p><label for="cidade">Cidade:</label>
+                    <input type="text" name="city" name="cidade" id="cidade"></p>
+                <p><label for="estasdo">Estado:</label>
+                    <input type="text" name="state" name="estado" id="estado"></p>
+                <p><input type="submit"></p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

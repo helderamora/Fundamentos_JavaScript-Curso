@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="table.css">
+
+    <style>
+        body {
+            background-color: #ccc;
+            margin: 0;
+        }
+
+        header,
+        footer {
+            height: 10vh;
+            background-color: #ccc;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+        main {
+            height: 80vh;
+            background-color: #999;
+        }
+
+        aside {
+            height: 80vh;
+            background-color: goldenrod;
+            width: 20vh;
+
+        }
+
+        ul {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/send" method="post" target="_blan" enctype="multipart/form-data">
+
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="submit" name="Enviar">
+
+        <br><br><br>
+
+        <fieldset id="botão">
+            <input type="text" name="zipcode" placeholder="Cep...">
+
+            <input type="text" name="address" placeholder="Endereço">
+            <input type="text" name="complement" placeholder="Complemento">
+            <input type="text" name="district" placeholder="Bairro">
+            <input type="text" name="city" placeholder="Cidade">
+            <input type="text" name="state" placeholder="Estado">
+            <input type="text" name="country" placeholder="País.">
+
+            <br><br>
+
+            <button type="button">Button Test</button>
+            <button type="reset" fieldset="botão">Button Reset</button>
+            <button type="submit" fildset="botão">Button submit</button>
+
+
+        </fieldset>
+
+    </form>
+
+    <select name="estado" id="estado">
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+        <option value="EX">Estrangeiro</option>
+    </select>
+
+
+
+    <header></header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cursos</a>
+        <a href="#">Contatos</a>
+    </nav>
+
+    <section>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Loja Virtual</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </nav>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt itaque tenetur minus fugit ducimus ad
+                soluta est velit quae voluptatem ut doloribus cum laborum, labore asperiores aliquam eveniet, reiciendis
+                culpa.
+            </p>
+
+        </aside>
+        <main>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, perspiciatis dicta. Saepe cupiditate,
+                expedita optio provident id eveniet unde corrupti, adipisci, impedit natus mollitia recusandae sint
+                blanditiis fugiat incidunt dolorum.</p>
+        </main>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Politica de Privacidade</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+    </table>
+</body>
+
+</html>
