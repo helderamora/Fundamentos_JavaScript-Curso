@@ -6,46 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background-color: #ede9dd;
-            margin: 0;
-            padding: 0;
-        }
+    <link rel="stylesheet" type="text/css" href="atividade006.css" />
 
-        header {
-            font-family: Arial, Helvetica, sans-serif;
-            display: flex;
-            justify-content: space-around;
-            background-color: #ff9944;
-            height: 300px;
-        }
-
-        h1 {
-            color: #ede9dd;
-            font-size: 46px;
-        }
-
-        h2 {
-            font-size: 28px;
-            height: 55px;
-            width: 300px
-        }
-
-        .sub {
-            align-self: flex-end;
-            color: #ede9dd;
-        }
-
-        .logo {
-            align-self: flex-end;
-        }
-
-        .espt1 {
-            font-size: 30px;
-            text-align: center;
-        }
-    </style>
 </head>
 
 <body>
@@ -55,16 +17,46 @@
         <h2 class="sub">Notícias do Dia</h2>
         <img class="logo" src="default_765x625.png" alt="logo" height="300px">
     </header>
+    <div>
+        <ul class="nav">
+            <li class="sec"><a href="#n1" class="a1">Esporte</a></li>
+            <li class="sec"><a href="#n2" class="a2">Policial</a></li>
+            <li class="sec"><a href="#n3" class="a3">Política</a></li>
+        </ul>
+    </div>
 
-    <section id="esp" style="width: 450px;">
-        <h2 class="espt1">Esportes</h2>
-        <img src="ceaxfor.jpg" alt="ceara vs fortaleza" style="width:450px;">
-        <h3>Fortaleza vence Ceará e tem vantagem na busca pelo pentacampeonato cearense</h3>
-        <h5>Gols de Lucas Sasha e Caio Alexandre dão a vitória ao Tricolor do Pici. Danilo Barcelos desconta</h5>
-        <p> <strong>Tricolor em vantagem</strong>
-            <br>
-            Na primeira final do Campeonato Cearense, neste sábado (1º), o Fortaleza venceu o Ceará por 2 a 1, com gols de Lucas Sasha e Caio Alexandre. Danilo Barcelos descontou. As equipes voltam a se enfrentar no domingo (8), às 16 horas, na Arena Castelão. O Ceará precisa vencer por dois gols de diferença se quiser ser campeão. Se vencer por um gol de diferença, leva a pênaltis. O Fortaleza pode empatar ou vencer que leva o pentacampeonato estadual.</p>
-    </section>
+    <div class="conteiner1">
+        <section id="esp" style="width: 850px;">
+            <h2 class="espt1" id="n1">Esporte</h2>
+            <img src="ceaxfor.jpg" alt="ceara vs fortaleza" style="width:850px;">
+            <h5 class="footer">15:30 | Mar. 31, 2023 Autor: Helder</h5>
+            <h3>Fortaleza vence Ceará e tem vantagem na busca pelo pentacampeonato cearense</h3>
+            <h5>Gols de Lucas Sasha e Caio Alexandre dão a vitória ao Tricolor do Pici. Danilo Barcelos desconta</h5>
+            <p> <strong>Tricolor em vantagem</strong>
+                <br>
+                Na primeira final do Campeonato Cearense, neste sábado (1º), o Fortaleza venceu o Ceará por 2 a 1, com
+                gols de Lucas Sasha e Caio Alexandre. Danilo Barcelos descontou. As equipes voltam a se enfrentar no
+                domingo (8), às 16 horas, na Arena Castelão. O Ceará precisa vencer por dois gols de diferença se quiser
+                ser campeão. Se vencer por um gol de diferença, leva a pênaltis. O Fortaleza pode empatar ou vencer que
+                leva o pentacampeonato estadual.
+            </p>
+        </section>
+        <section id="esp" style="width: 850px;">
+            <h2 class="espt2" id="n2">Policial</h2>
+            <img src="policia_civil_ceara.jpg" alt="policial" style="width:850px;">
+            <h5 class="footer">17:45 | Abr. 1, 2023 Autor: Helder</h5>
+            <h3>Suspeito de triplo homicídio na Granja Lisboa é preso em Fortaleza</h3>
+            <p>Homem de 20 anos também é suspeito do homicídio de uma jovem de 19 anos. Ele possui antecedentes por
+                homicídio e crime contra a fé pública</p>
+        </section>
+        <section id="esp" style="width: 850px;">
+            <h2 class="espt3" id="n3">Política</h2>
+            <img src="lula.jpg" alt="Lula" style="width:850px;">
+            <h5 class="footer">15:30 | abr. 3, 2023 Autor: Helder</h5>
+            <h3>Após pressão, governo Lula irá suspender implantação do Novo Ensino Médio</h3>
+            <p>O presidente Luiz Inácio Lula da Silva deve suspender a implantação do Novo Ensino Médio (NEM). Segundo apuração do jornal Folha de S.Paulo, uma portaria deve ser publicada nos próximas dias interrompendo os prazos previstos para o modelo educacional que vem sendo alvo de críticas por parte de movimentos ligados a estudantes e professores. Há forte pressão para que o NEM, criado durante o governo Michel Michel e colocado em prática desde o ano passado, ainda durante a gestão Bolsonaro, seja revogado. Com isso, mudanças no Exame Nacional do Ensino Médio (Enem) previstas para 2024 também estão interrompidas.</p>
+        </section>
+    </div>
 
 </body>
 
