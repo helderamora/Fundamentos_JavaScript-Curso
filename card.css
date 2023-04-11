@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    height: 0px;
+    background-color: #c0c4c6;
+    font-family: 'Amatic SC', cursive;
+}
+
+.nav {
+    background-color: #2a4b7c;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 80%;
+}
+
+.sub {
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: solid #c0c4c6;
+    color: #ffff
+}
+
+.conteiner {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(#e66465, #9198e5); */
+}
+
+.card {
+    width: 250px;
+    height: 500px;
+    background: linear-gradient(#99ffff, #94bbe9, #eeaeca);
+    border-radius: 15px;
+    margin-top: -3em;
+    border: solid 0.3px;
+    box-shadow: rgb(0, 0, 0, 0.3) 0px 19px 38px, rgb(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.ava {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 120px;
+    border: solid;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.title {
+    list-style-type: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.btn:hover{
+    padding: 12px 32px;
+    font-size: 18px;
+    box-shadow: rgb(0, 0, 0, 0.3) 0px 19px 38px, rgb(0, 0, 0, 0.22) 0px 15px 12px;
+}
