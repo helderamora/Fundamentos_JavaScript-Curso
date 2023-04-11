@@ -1,8 +1,14 @@
 body {
     margin: 0px;
     height: 0px;
-    background-color: #c0c4c6;
+    background-image: url(code2.jpg);
+    background-repeat: no-repeat;
     font-family: 'Amatic SC', cursive;
+
+}
+img {
+    margin:0;
+    padding:0;
 }
 
 .nav {
@@ -17,8 +23,9 @@ body {
     padding: 20px;
     text-align: center;
     text-decoration: none;
-    border: solid #c0c4c6;
-    color: #ffff
+    border:6px solid #999;
+    background-clip: padding-box;
+    color: #ffff;
 }
 
 .conteiner {
