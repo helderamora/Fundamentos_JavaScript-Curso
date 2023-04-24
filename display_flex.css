@@ -11,7 +11,7 @@ body {
 }
  
 .conteiner {
-    border: 6px solid red;
+    border: 6px solid rgb(255, 0, 30);
     width: 640px;
     height: 540px;
     display: flex;
