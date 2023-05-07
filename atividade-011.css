@@ -1,0 +1,36 @@
+body {
+
+    display: flex;
+    justify-content: center;
+}
+
+#body {
+    background-color: #ecf0f1;
+    color: #333;
+    width: 50%;
+    height: 30%;
+}
+
+#title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 68px;
+    
+}
+
+#p1 {
+    font-family: 'Mulish', sans-serif;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.65em;
+}
+
+
+#col {
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: dotted;
+    column-rule-width: 1.65px;
+    column-rule-color: #333;
+
+}
