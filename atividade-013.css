@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.title1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px auto;
+    background-color: #b18a70;
+    font-size: 26px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: italic;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.title3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.title4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+#img {
+    width: 350px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    padding-bottom: 50px ;
+}
+#list {
+    display: inline-block;
+    margin-left: 720px;
+    text-align: center;
+    list-style:  none;
+}
+
+.protein {
+    background-color: #f08080;
+    width: 250px;
+}
+
+.dairy {
+    background-color: #ffffe0;
+    width: 250px;
+}
+
+.vegetables {
+    background-color: #90ee90;
+    width: 250px;
+}
+
+p {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    max-width: 50%;
+}

@@ -1,0 +1,20 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 12px "Times New Roman",;  
+   background-color: #2c2c7a; 
+}
+
+#col {
+    column-count: 2;
+    max-width: 100%;
+    padding: 20px;
+}
+.column1{
+    background-color: #d3d3d3;
+    list-style: none;
+}
+.column2{
+    background-color: #90ee90;
+    list-style: none;
+}
