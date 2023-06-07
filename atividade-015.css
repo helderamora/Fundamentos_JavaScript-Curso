@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #F4D8B0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -17,38 +17,40 @@ h1 {
 }
 
 #conteiner {
-    column-count: 2;
-    column-rule-width: 1.65px;
-    column-rule-style: dashed;
-    column-rule-color: #5C3F37;
-    column-width: 500%;
+    columns: 2;
+    column-rule: 3px #9b5846;
+    column-rule-style: dotted;
+    column-gap: 60%;
 }
 
-.box {
+.test {
     display: flex;
     justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #title-h3 {
     color: #9b5846;
-    border: black 1px solid;
-}
-
-.box-menu,.box-price {
-    border: black 1px solid;
+    /* border: black 1px solid; */
 }
 
 #title-h3 .first-letter {
     font-size: 30px;
 }
 
+p {
+    /* border: 0.1rem solid black; */
+}
+
 .price {
     color: red;
+    /* border: 0.1rem solid black; */
 }
 
 footer {
     text-align: center;
-    margin-left: auto;
+    margin: 0 28rem ;
 }
 
 .box-footer {
