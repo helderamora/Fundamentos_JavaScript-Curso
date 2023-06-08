@@ -8,19 +8,23 @@
 
 
 h1 {
-    padding-bottom: 10px;
     font-family: 'Supermercado One', cursive;
     color: #5C3F37;
-    font-size: 60px;
+    font-size: 48px;
     display: flex;
     justify-content: center;
+}
+
+h3 {
+    margin-top: 25px;
 }
 
 #conteiner {
     columns: 2;
     column-rule: 3px #9b5846;
     column-rule-style: dotted;
-    column-gap: 60%;
+    column-gap: 10%;
+    max-width: 100%;
 }
 
 .test {
@@ -28,6 +32,10 @@ h1 {
     justify-content: space-between;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.test2 {
+    margin-top: 18px;
 }
 
 #title-h3 {
@@ -50,7 +58,7 @@ p {
 
 footer {
     text-align: center;
-    margin: 0 28rem ;
+    margin: 0 18rem ;
 }
 
 .box-footer {
