@@ -1,51 +1,57 @@
+@charset "UTF-8";
+
 * {
-    padding: 0;
-    background-color: #F4D8B0;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    background-color: #F4D8B0;
+}
+
+main {
+    width: 50vw;
+    columns: 2;
+    column-gap: 50px;
+    column-width: 100px;
+    column-rule: 2px #9b5846;
+    column-rule-style: dotted;
+    margin: auto;
+    text-align: justify;
+}
 
 h1 {
     font-family: 'Supermercado One', cursive;
     color: #5C3F37;
-    font-size: 48px;
-    display: flex;
-    justify-content: center;
+    font-size: 3rem;
+    text-align: start;
+    column-span: all;
+    margin-bottom: 2rem;
 }
 
 h3 {
     font-size: 20px;
-}
-
-h4 {
-    font-size: 20px;
-}
-
-p {
-    max-width: 40%;
-    font-size: 18px;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 
-#conteiner {
-    column-count: 2;
-    column-span: all;
-    column-rule: 2px #9b5846;
-    column-rule-style: dotted;
-    /* column-gap: 30em; */
-    line-height: 25px;
-    /* max-width: 100%; */
-    box-sizing: border-box;
+h4 {
+    font-size: 18px;
+    margin-top: 15px;
+}
 
+p {
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .test {
     display: flex;
-}
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 15px;
 
-
-.test2 {
-    /* margin-top: 18px; */
 }
 
 #title-h3 {
@@ -53,14 +59,21 @@ p {
 }
 
 #title-h3 .first-letter {
-    font-size: 30px;
+    font-size: 25px;
+    color: #5C3F37;
 }
 
 
 .price {
     color: red;
+    margin-left: 25px;
 }
 
 .box-footer {
-    border: 1.65px #9b5846 dashed;
+    border: 2px #9b5846 dashed;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 49vw;
 }
