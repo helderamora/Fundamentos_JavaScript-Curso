@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: url(netflix_bkgd.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+/* div input {
+    width: 80%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 30px 20px 0;
+    border: none;
+    border-radius: 4px;
+    background: #333333;
+} */
+
+input::placeholder {
+    position: absolute;
+    top: 36%;
+    left: 5.8%;
+}
+
+input {
+    position: absolute;
+    top: 36%;
+    left: 5.8%;
+}
+
+input#btn-checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+input #btn-checkbox:checked {
+    background: gray;
+}
+
+/* #btn-entrar {
+    display: flex;
+    justify-content: center;
+    width: 69.8%;
+    font-size: 16px;
+    padding: 3%;
+    background: #E62213;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.logo-netflix {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 24.6px;
+    margin-top: 2.2px;
+}
+
+.box-form {
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 452px;
+    height: 800px;
+    border-radius: 4px;
+    position: absolute;
+    top: 12.9%;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.label-enter {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 47.8px;
+    color: whitesmoke;
+    font-size: 31px;
+    top: 61px;
+}
+
+.inp-login {
+    position: absolute;
+    left: 15.4%;
+    top: 11.2%;
+
+}
+
+.inp-senha {
+    position: absolute;
+    left: 15.4%;
+    top: 19.6%;
+}
+
+.inp-entar {
+    position: absolute;
+    left: 15.4%;
+    bottom: 58.8%;
+}
+
+.btn-checkbox {
+    position: absolute;
+    top: 38.4%;
+    right: 53.4%;
+}
+
+.label-checkbox {
+    position: absolute;
+    top: 42.8%;
+    left: 19.4%;
+    color: #B3B3B3;
+    font-size: 12.6px;
+}
+
+.btn-help {
+    position: absolute;
+    top: 42.7%;
+    left: 60%;
+    color: #B3B3B3;
+    font-size: 13.6px;
+    text-decoration: none;
+}
+
+.sign-in {
+    position: absolute;
+    top: 55%;
+    left: 15.8%;
+    color: #595959;
+}
+
+.sign-in a {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-in a:hover {
+    color: #1168D0;
+    text-decoration: underline;
+}
+
+.btn-footer {
+    position: absolute;
+    top: 59%;
+    left: 15.5%;
+    color: #595959;
+    width: 72%;
+}
+
+.btn-footer a {
+    text-decoration: none;
+    color: #1168D0;
+}
+
+.btn-footer a:hover {
+    color: #1168D0;
+    text-decoration: underline;
+} */
+
+@media only screen and (max-width: 500px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(none);
+        box-sizing: border-box;
+        background-color: black;
+    }
+
+    div .logo-netflix {
+        width: 412px;
+        height: 45;
+    }
+
+    img {
+        position: absolute;
+        top: 1.2%;
+        left: 0.8%;
+        width: 22.8%;
+        height: 40px;
+        z-index: 1;
+        box-sizing: border-box
+    }
+
+
+    div .logo-netflix {
+        position: relative;
+        width: 370.81;
+        height: 550px;
+    }
+
+    h1 {
+        width: 370.81px;
+        height: 40px;
+    }
+
+    #label-entrar {
+        position: absolute;
+        top: 7.8%;
+        left: 5%;
+        color: aliceblue;
+    }
+
+    #login-email {
+        width: 80%;
+        height: 2.2%;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 30px 20px 0;
+        border: none;
+        border-radius: 4px;
+        background: #333333;
+        position: absolute;
+        top: 14.6%;
+        left: 5%;
+    }
+
+    #login-senha {
+        width: 80%;
+        height: 2.2%;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 30px 20px 0;
+        border: none;
+        border-radius: 4px;
+        background: #333333;
+        position: absolute;
+        top: 21.8%;
+        left: 5%;
+    }
+
+    #btn-entrar {
+        width: 90%;
+        height: 5.4%;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        border-radius: 4px;
+        background: #E62213;
+        color: whitesmoke;
+        border: none;
+        border-radius: 4px;
+        position: absolute;
+        top: 31.8%;
+        left: 5%;
+    }
+
+    #btn-checkbox {
+        position: absolute;
+        top: 39%;
+    }
+
+    #label-checkbox {
+        position: absolute;
+        top: 39%;
+        left: 11%;
+        color: #B3B3B3;
+        font-size: 14px;
+    }
+
+    input #btn-checkbox:checked {
+        background: gray;
+    }
+
+
+}
