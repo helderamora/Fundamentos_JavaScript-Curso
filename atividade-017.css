@@ -209,7 +209,7 @@ input #btn-checkbox:checked {
     #login-email {
         width: 80%;
         height: 2.2%;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         padding: 30px 20px 0;
         border: none;
@@ -252,13 +252,14 @@ input #btn-checkbox:checked {
 
     #btn-checkbox {
         position: absolute;
-        top: 39%;
+        top: 38.6%;
+        left: 5%;
     }
 
     #label-checkbox {
         position: absolute;
-        top: 39%;
-        left: 11%;
+        top: 38.6%;
+        left: 10%;
         color: #B3B3B3;
         font-size: 14px;
     }
@@ -266,6 +267,29 @@ input #btn-checkbox:checked {
     input #btn-checkbox:checked {
         background: gray;
     }
+
+    a.a-help {
+        position: absolute;
+        top: 38.6%;
+        right: 4%;
+        color: #B3B3B3;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    #btn-sign-in {
+        position: absolute;
+        top: 44.8%;
+        left: 5%;
+        color: #B3B3B3;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin-left: 6px;
+    }
+
 
 
 }
