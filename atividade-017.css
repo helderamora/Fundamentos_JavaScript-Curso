@@ -13,7 +13,7 @@ body {
 }
 
 .form-login {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.927);
     width: 320px;
     height: 560px;
     padding: 60px 68px 40px;
@@ -34,11 +34,11 @@ input::placeholder {
 
 #login-email {
     width: 20rem;
-    height: 50px;
-    font-size: 13px;
+    height: 51px;
+    font-size: 15px;
     font-weight: 500;
     border: none;
-    border-radius: 5.6px;
+    border-radius: 5px;
     background: #333333;
     position: absolute;
     top: 29%;
@@ -47,10 +47,10 @@ input::placeholder {
 #login-senha {
     width: 20rem;
     height: 50px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     border: none;
-    border-radius: 5.6px;
+    border-radius: 5px;
     background: #333333;
     position: absolute;
     top: 38.4%;
@@ -62,7 +62,7 @@ input::placeholder {
     font-size: 16px;
     font-weight: 600;
     border: none;
-    border-radius: 5.6px;
+    border-radius: 5px;
     background: #E62213;
     color: whitesmoke;
     border: none;
@@ -71,7 +71,7 @@ input::placeholder {
 }
 
 #btn-checkbox {
-    position: absolute;
+    position: fixed;
     top: 61%;
 }
 
@@ -119,13 +119,11 @@ span#btn-footer {
     text-decoration: none;
 }
 
-
-
-/* ---------------------------- */
+/* ----------------------------- */
 /* ----------------------------- */
 /* ----------------------------- */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 739px) {
 
     body {
         margin: 0;
